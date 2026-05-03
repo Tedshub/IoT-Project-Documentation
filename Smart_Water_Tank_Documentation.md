@@ -5,7 +5,7 @@
 
 ## Web Dashboard Overview
 
-![Water Tank Monitor Web Dashboard](web_water_tank.png)
+![Water Tank Monitor Web Dashboard](img/web_water_tank.png)
 
 The dashboard provides a live view of the water tank status and updates automatically every 1.2 seconds without needing to refresh the page.
 
