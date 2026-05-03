@@ -3,6 +3,10 @@
 
 ---
 
+### Web Dashboard Display
+
+![Smart Canopy Web Dashboard](img/web_canopy.png)
+
 ## Project Description
 
 This system uses an **ESP32** as the main microcontroller connected to an **FC-37 rain sensor** to detect rainfall. When rain is detected, the **SG-90 servo** will automatically close the canopy. When the rain stops, the canopy will open again automatically. The system provides a **local web dashboard** accessible via browser on the same network, featuring real-time status monitoring, manual override control, servo angle configuration, and an event log.
@@ -717,10 +721,6 @@ void loop() {
 ## Accessing the Web Dashboard
 
 After the program is successfully uploaded and running, the ESP32 hosts a local web server that can be accessed from any device on the same network.
-
-### Web Dashboard Display
-
-![Smart Canopy Web Dashboard](img/web_canopy.png)
 
 ### Requirements
 

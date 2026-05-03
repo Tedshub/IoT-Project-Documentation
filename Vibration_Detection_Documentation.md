@@ -3,6 +3,10 @@
 
 ---
 
+### Web Interface Preview
+
+![Web Interface Display](img/web_vibration.png)
+
 ## Project Description
 
 This system utilizes an **ESP32** as the main microcontroller connected to an **SW-420 vibration sensor** to detect vibrations. When a vibration is detected, a **buzzer** sounds as a local alarm, and simultaneously the system logs the event to a **local web interface** accessible from any device on the same network. The web interface displays real-time vibration status, uptime, and an event log.
@@ -670,10 +674,6 @@ void loop() {
 ## Accessing the Web Interface
 
 The ESP32 runs a local web server that can be accessed from any browser on the same network.
-
-### Web Interface Preview
-
-![Web Interface Display](img/web_vibration.png)
 
 ### Steps to Open the Web Interface
 

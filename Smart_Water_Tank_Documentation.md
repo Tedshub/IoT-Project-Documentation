@@ -3,6 +3,12 @@
 
 ---
 
+## Web Dashboard Overview
+
+![Water Tank Monitor Web Dashboard](web_water_tank.png)
+
+The dashboard provides a live view of the water tank status and updates automatically every 1.2 seconds without needing to refresh the page.
+
 ## Project Description
 
 This system uses an **ESP32** as the main microcontroller connected to an **HC-SR04 ultrasonic sensor** to measure the water surface distance inside the tank. The system continuously monitors the water level and classifies it into three states:
@@ -913,12 +919,6 @@ The ESP32 hosts a web server on port 80. Once the program is running, the dashbo
 > **If the page does not load:** Make sure your device is on the same network as the ESP32, the ESP32 is still powered on, and you are using `http://` (not `https://`).
 
 ---
-
-## Web Dashboard Overview
-
-![Water Tank Monitor Web Dashboard](web_water_tank.png)
-
-The dashboard provides a live view of the water tank status and updates automatically every 1.2 seconds without needing to refresh the page.
 
 **Left panel — Live Tank Level:**
 - An animated SVG tank visualization shows the current fill level with color coding (blue for NORMAL, orange for OVERFULL, red for LOW).
